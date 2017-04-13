@@ -1,0 +1,156 @@
+body{
+	background: #EEEEEE;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	/*background: #ccc;*/
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+.zwtop{
+	width: 100%;
+	height: 1.46rem;
+	background: #E71C25;
+	color: #fff;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	margin-top: 0.4rem;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.zwtop .zwtopcen{
+	width: 1rem;
+	height: 100%;
+	background: url(../img/zwtop.png);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -0.5rem;
+	top: 0;
+}
+.zwtop .zwtopname{
+	width: auto;
+	height: auto;
+	margin-top: 0.39rem;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.zwtop .icon-fanhui1{
+	color: #fff;
+	font-size: 0.4rem;
+	float: left;
+	margin-top: 0.11rem;
+}
+.zwtopname .zwtyu{
+	position: absolute;
+	left: 0.1rem;
+	top: 0;
+}
+.zwtopname h4{
+	font-size: 0.3rem;
+	text-shadow: 0.05rem 0 0 #F9C117;
+}
+.zwtopname h5{
+	font-size: 0.22rem;
+	color: #ffc4bb;
+	width: 1.8rem;
+	margin-top: 0.1rem;
+}
+.zwtopname .zwtyue{
+	display: block;
+	margin-left: 0.5rem;
+	font-size: 0.06rem;
+	text-align: left;
+}
+.zwtopname span{
+	font-size: 0.28rem;
+	color: #fff;
+}
+.zwtopname .zwedit{
+	width: 0.8rem;
+	height: 0.4rem;
+	line-height: 0.37rem;
+	text-align: center;
+	border-radius: 10px;
+	background: #fff;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.14rem;
+}
+.zwtopname .zwedit a span{
+	color: #898383;	
+}
+
+
+
+
+
+
+
+
+
+.bottom li a{
+	color: #353535;
+}
+.bottom{
+	width: 100%;
+	height: 1rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+}
+.bottom ul{
+	width: 100%;
+	height: 100%;
+}
+.bottom li{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+.bottom li:first-child span{
+	border: 0;
+}
+.bottom li span{
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.4rem;
+	border-left: 1px dotted gray;
+}
+.active{
+	color: #F0541D;
+}
+

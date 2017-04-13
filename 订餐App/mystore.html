@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+    	<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>	
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/mystore.css"/>
+   	 	<script src="js/common.js"></script>
+   	 	<script src="js/iscroll.js"></script>
+   	 	<script src="js/demoUtils.js"></script> 	
+	</head>
+	<body onload="loaded()">
+		<!--顶部-->
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="zwtop">
+					<div class="zwtopname">
+						<a href="percen.html">
+							<span class="iconfont icon-fanhui1"></span>
+						</a>
+						<h4>我的店铺</h4>
+						<span>WODEDIANPU</span>
+						<div class="zwedit">
+							<a href="">
+								<span class="iconfont icon-bianji3"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--内容-->
+				<div class="container">
+					<div class="first">
+						<p>订单编号：NO.14111856444</p>
+						<ul class="one">
+							<li>
+								<div class="imgbox img1"></div>
+								<div class=introduce>
+									<p class=title>新鲜美味羊肉串</p>
+									<section>
+										<div class="num">
+											<div></div>
+											<span>数量：2份</span>
+										</div>
+										<div class="kouwei">
+											<div></div>
+											<span>口味：微辣</span>
+										</div>
+									</section>
+									<p class=price>20.00RMB</p>
+								</div>
+							</li>
+							<li>
+								<div class="imgbox img2"></div>
+								<div class=introduce>
+									<p class=title>酸辣藕片</p>
+									<section>
+										<div class="num">
+											<div></div>
+											<span>数量：1份</span>
+										</div>
+										<div class="kouwei">
+											<div></div>
+											<span>口味：中辣</span>
+										</div>
+									</section>
+									<p class=price>25.00RMB</p>
+								</div>
+							</li>
+						</ul>
+						<div class="totle">
+							<div>
+								<span>合计</span>
+								<b>45.00</b>
+								<span>RMB</span>
+							</div>	
+							<div class="zwaccept">
+								<a href="">接受订单</a>
+							</div>
+							<div class="zwphone">
+								<h5>手机号码</h5>
+								<span>SHOUJIHAOMA</span>
+								<p>18435106788</p>
+							</div>
+							<div class="zwaddress">
+								<h5>收货地址</h5>
+								<span>SHOUHUODIZHI</span>
+								<p>太原学院六号宿舍楼</p>
+							</div>
+						</div>
+					</div>
+					<div class="second">
+						<p>订单编号：NO.14111856445</p>
+						<ul class="one">
+							<li>
+								<div class="imgbox img1"></div>
+								<div class=introduce>
+									<p class=title>新鲜美味羊肉串</p>
+									<section>
+										<div class="num">
+											<div></div>
+											<span>数量：2份</span>
+										</div>
+										<div class="kouwei">
+											<div></div>
+											<span>口味：微辣</span>
+										</div>
+									</section>
+									<p class=price>20.00RMB</p>
+								</div>
+							</li>
+							<li>
+								<div class="imgbox img2"></div>
+								<div class=introduce>
+									<p class=title>酸辣藕片</p>
+									<section>
+										<div class="num">
+											<div></div>
+											<span>数量：1份</span>
+										</div>
+										<div class="kouwei">
+											<div></div>
+											<span>口味：中辣</span>
+										</div>
+									</section>
+									<p class=price>25.00RMB</p>
+								</div>
+							</li>
+						</ul>
+						<div class="totle">
+							<div>
+								<span>合计</span>
+								<b>45.00</b>
+								<span>RMB</span>
+							</div>	
+							<div class="zwaccept">
+								<a href="">接受订单</a>
+							</div>
+							<div class="zwphone">
+								<h5>手机号码</h5>
+								<span>SHOUJIHAOMA</span>
+								<p>18435106766</p>
+							</div>
+							<div class="zwaddress">
+								<h5>收货地址</h5>
+								<span>SHOUHUODIZHI</span>
+								<p>太原学院六号宿舍楼</p>
+							</div>
+						</div>
+					</div>
+					<p class="zwmore">很抱歉 没有更多订单了</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	var myScroll;
+	function loaded () {
+		myScroll = new IScroll('#wrapper', {
+			scrollbars: true,
+			mouseWheel: true,
+			interactiveScrollbars: true,
+			shrinkScrollbars: 'scale',
+			fadeScrollbars: true
+		});
+	}
+	document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+		capture: false,
+		passive: false
+	} : false);
+</script>
