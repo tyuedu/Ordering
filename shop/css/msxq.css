@@ -1,3 +1,6 @@
+body{
+	background:#F9F9F9;
+}
 .top{
 	height:4.48rem;
 	width:100%;
@@ -51,13 +54,331 @@
 	background:#D41A22;
 	border:0.01rem solid #F9232C;
 }
-.top .xiangqing{
+.xiangqing{
 	width:100%;
-	height:14.28rem;
-	padding:0.37rem;
+	height:14.06rem;
+	padding:0 0.37rem;
 	box-sizing: border-box;
 	position:absolute;
-	top:1.08rem;
+	top:1.54rem;
 	left:0;
-	background:blue;
+	z-index:100;
+}
+.swiper-container{
+	width:100%;
+	height:100%;
+}
+.swiper-slide{
+	text-align:center;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.swiper-slide > .imgbox{
+	margin:0.7rem auto;
+	width:4.92rem;
+	height:4.92rem;
+	border-radius:0.2rem;
+	box-shadow: 0 0 0 0.05rem #EAEAEA;
+}
+.swiper-slide > .imgbox img{
+	width:100%;
+}
+.swiper-slide > .one{
+	width:6.75rem;
+	height:4.7rem;
+	border-bottom:0.01rem solid #DBDBDB;
+}
+.swiper-slide > .one p:nth-of-type(1){
+	width:4.25rem;
+	height:auto;
+	text-align:center;
+	line-height: 0.3rem;
+	font-size:0.24rem;
+	color:#353B42;
+	margin:0 auto;
+}
+.swiper-slide > .one .stars{
+	width:1.7rem;
+	height:0.28rem;
+	text-align: center;
+	margin:0.16rem auto 0.1rem;
+}
+.swiper-slide > .one .stars span{
+	display: block;
+	float:left;
+	margin-left:0.1rem;
+	font-size:0.16rem;
+	color:#E61C25;
+}
+.swiper-slide > .one h2{
+	font-size:0.4rem;
+	color:#FA264F;
+}
+.swiper-slide > .one > span{
+	display:block;
+	width:0.64rem;
+	height:0.3rem;
+	background:#FA264F;
+	border-radius:0.2rem;
+	font-size:0.04rem;
+	margin:0 auto;
+	color:#fff;
+}
+.swiper-slide > .one p:nth-of-type(2){
+	width:100%;
+	height:auto;
+	font-size:0.14rem;
+	color:#71777F;
+	margin-top:0.28rem;
+}
+.swiper-slide > .one .zhonglei{
+	width:5.4rem;
+	height:auto;
+	margin:0.24rem auto;
+}
+.swiper-slide > .one .zhonglei span{
+	display:block;
+	float:left;
+	width:1.18rem;
+	height:0.54rem;
+	border-radius: 0.3rem;
+	border:0.01rem solid #FF3D62;
+	text-align: center;
+	line-height: 0.54rem;
+	font-size:0.24rem;
+	margin-left:0.16rem;
+	color:#71777F;
+}
+.swiper-slide > .one .zhonglei span:first-child{
+	margin-left:0;
+}
+.swiper-slide > .one .zhonglei span.active{
+	background:#E61C25;
+	color:#fff;
+}
+.one > img{
+	display:block;
+	margin:0.18rem auto;
+	width:0.2rem;
+}
+.swiper-slide > .two{
+	width:6.75rem;
+	height:2.44rem;
+	border-bottom:0.01rem solid #DBDBDB;
+}
+.swiper-slide > .two h4{
+	text-align: center;
+	font-size:0.24rem;
+	color:#484B4E;
+	margin-top:0.43rem;
+}
+.swiper-slide > .two div{
+	width:3.5rem;
+	height:0.8rem;
+	margin:0.47rem auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.swiper-slide > .two div span{
+	display:block;
+	float:left;
+	border:0.01rem solid #DEDEDE;
+	box-sizing: border-box;
+	margin-left:0.3rem;
+	text-align:center;
+}
+.swiper-slide > .two div span:first-child,.swiper-slide > .two div span:last-child{
+	width:0.58rem;
+	height:0.58rem;
+	border-radius:50%;
+	font-size:0.18rem;
+	color:#ACACAC;
+	line-height:0.58rem;
+	margin-top:0.12rem;
+}
+.swiper-slide > .two div span:first-child{
+	margin-left:0;
+}
+.swiper-slide > .two div span.active{
+	border-color:#FA264F;
+	color:#FA264F;
+}
+.swiper-slide > .two div span:nth-child(2){
+	width:1.7rem;
+	border-radius:0.4rem;
+	height:100%;
+	font-size:0.24rem;
+	color:#6A6A6A;
+	line-height:0.8rem;
+}
+.pinglun{
+	width:100%;
+	height:auto;
+	position: absolute;
+	top:15.6rem;
+	left:0;
+	padding:0 0.37rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.pinglun .title{
+	width:100%;
+	height:1.3rem;
+	overflow: hidden;
+}
+.pinglun > .title img{
+	display:block;
+	height:0.44rem;
+	float:left;
+	margin-top:0.4rem;
+}
+.pinglun .title > div{
+	float:left;
+	height:0.44rem;
+	width:auto;
+	margin-top:0.4rem;
+	margin-left:0.2rem;
+}
+.pinglun .title > div p:first-child{
+	color:#E21969;
+	font-size:0.24rem;
+}
+.pinglun .title > div p:last-child{
+	color:#B7B8B8;
+	font-size:0.24rem;
+}
+.pinglun .juti{
+	width:100%;
+	height:auto;
+	border-bottom:0.01rem solid #DBDBDB;
+}
+.pinglun .juti > ul{
+	width:100%;
+	height:auto;
+}
+.pinglun .juti > ul >li{
+	width:100%;
+	height:1.26rem;
+	margin-top:0.12rem;
+}
+.pinglun .juti > ul >li > .left{
+	height:100%;
+	width:1.2rem;
+	float:left;
+	background:#FBFBFB;
+	text-align: center;
+	line-height:1.26rem;
+}
+.pinglun .juti > ul >li > .left img{
+	width:0.74rem;
+}
+.pinglun .juti > ul >li > .right{
+	width:5.4rem;
+	height:100%;
+	float:left;
+	background: #fff;
+	
+}
+.pinglun .juti > ul >li > .right p:first-child{
+	margin-top:0.24rem;
+	color:#A9A9A9;
+	font-size:0.2rem;
+}
+.pinglun .juti > ul >li > .right p:nth-child(2){
+	color:#71777F;
+	font-size:0.2rem;
+}
+.pinglun .juti > ul >li > .right > ul{
+	width:100%;
+	height:0.2rem;
+}
+.pinglun .juti > ul >li > .right > ul li{
+	float:left;
+	font-size:0.2rem;
+	margin-left:0.32rem;
+	color:red;
+}
+.pinglun .juti > ul >li > .right > ul li:first-child{
+	margin-left:0;
+}
+.pinglun .juti > ul >li > .right > ul li span{
+	color:#C4C4C4;
+}
+.price{
+	width:100%;
+	height:0.77rem;
+	position: absolute;
+	top:21rem;
+	left:0;
+	padding:0 0.37rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom:0.1rem;
+}
+.price div:first-child{
+	width:auto;
+	height:100%;
+	overflow: hidden;
+	float:left;
+}
+.price div:first-child span{
+	font-size:0.4rem;
+	color:#ADABAB;
+	display:block;
+	float:left;
+	font-weight: bold;
+	margin-top:0.2rem;
+}
+.price div:last-child{
+	float:right;
+	width:auto;
+	height:100%;
+	overflow: hidden;
+}
+.price div:last-child span{
+	float:left;
+	display: block;
+	margin-top:0.2rem;
+}
+.price div:last-child span:first-child{
+	width:0.28rem;
+	height:0.28rem;
+	border-radius: 50%;
+	background: #E7FE24;
+	border:0.01rem solid #fff;
+}
+.price div:last-child span:last-child{
+	font-size:0.4rem;
+	color:#FA264F;
+}
+.buttom{
+	width:100%;
+	height:1.16rem;
+	position: absolute;
+	left:0;
+	bottom:0;
+	margin-top:0.2rem;
+	padding:0 0.37rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #FC5259;
+	z-index:200;
+}
+.buttom button{
+	display:block;
+	float:left;
+	margin-top:0.14rem;
+	width:3.22rem;
+	height:0.92rem;
+	border-radius: 0.5rem;
+	color:#838383;
+}
+.buttom button:first-child{
+	background:#E21919;
+}
+.buttom button:last-child{
+	background:#E21969;
+}
+.buttom button.active{
+	color:#fff;
 }

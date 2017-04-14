@@ -12,22 +12,360 @@
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/msxq.css" />
 		<link rel="stylesheet" href="font/iconfont.css" />
+		<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
 		<script src="js/common.js"></script>
+		<script src="js/swiper-3.4.2.min.js"></script>
+		<script src="js/iscroll.js"></script>
+		<script src="js/demoUtils.js"></script>
 	</head>
-	<body>
-		<div class="top">
-			<div class="nav">
-				<div>
-					<div class="return">&lt;</div>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1000;
+			top: 0;
+			bottom: 1.16rem;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			width:100%;
+			height:21.8rem;
+			position:absolute;
+		}
+
+		.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+			bottom:96%;
+			left:0;
+		}
+		.swiper-pagination-bullet{
+			background:#fff;
+			opacity:1;
+		}
+		.swiper-pagination-bullet-active{
+			width:0.24rem;
+			height:0.24rem;
+		}
+	</style>
+	<body >
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="top">
+					<div class="nav">
+						<div>
+							<div class="return">&lt;</div>
+						</div>
+						<div class="title">美食详情介绍</div>
+						<div>
+							<div class="iconfont icon-fenxiang1"></div>
+						</div>
+					</div>
+					
 				</div>
-				<div class="title">美食详情介绍</div>
-				<div>
-					<div class="iconfont icon-fenxiang1"></div>
-				</div>
-			</div>
-			<div class="xiangqing">
-				
+				<div class="xiangqing">
+						<div class="swiper-container">
+					        <div class="swiper-wrapper">
+					            <div class="swiper-slide">
+					            	<div class=imgbox>
+					            		<img src="img/zjg-ms_1.png" alt="" />
+					            	</div>
+					            	<div class="one">
+					            		<p>CAKE NKEWANCHENGYU ARTSTATION</p>
+					            		<div class=stars>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            		</div>
+					            		<img src="img/zjg-1_03.png" alt="" />
+					            		<h2>10.00</h2>
+					            		<span>RMB</span>
+					            		<p>生活需要不断去感悟，并非简单的享乐</p>
+					            		<img src="img/zjg-2_03.png" alt="" />
+					            		<div class=zhonglei>
+					            			<span>微辣</span>
+					            			<span>中辣</span>
+					            			<span>麻辣</span>
+					            			<span class=active>清汤</span>
+					            		</div>
+					            	</div>
+					            	<div class="two">
+					            		<h4>数·量</h4>
+					            		<div>
+					            			<span class="active">+</span>
+						            		<span>00</span>
+						            		<span>-</span>
+					            		</div>
+					            	</div>
+					            </div>
+					            <div class="swiper-slide">
+					            	<div class=imgbox>
+					            		<img src="img/zjg-ms_1.png" alt="" />
+					            	</div>
+					            	<div class="one">
+					            		<p>CAKE NKEWANCHENGYU ARTSTATION</p>
+					            		<div class=stars>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            		</div>
+					            		<img src="img/zjg-1_03.png" alt="" />
+					            		<h2>10.00</h2>
+					            		<span>RMB</span>
+					            		<p>生活需要不断去感悟，并非简单的享乐</p>
+					            		<img src="img/zjg-2_03.png" alt="" />
+					            		<div class=zhonglei>
+					            			<span>微辣</span>
+					            			<span>中辣</span>
+					            			<span>麻辣</span>
+					            			<span class=active>清汤</span>
+					            		</div>
+					            	</div>
+					            	<div class="two">
+					            		<h4>数·量</h4>
+					            		<div>
+					            			<span class="active">+</span>
+						            		<span>00</span>
+						            		<span>-</span>
+					            		</div>
+					            	</div>
+					            </div>
+					            <div class="swiper-slide">
+					            	<div class=imgbox>
+					            		<img src="img/zjg-ms_1.png" alt="" />
+					            	</div>
+					            	<div class="one">
+					            		<p>CAKE NKEWANCHENGYU ARTSTATION</p>
+					            		<div class=stars>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            		</div>
+					            		<img src="img/zjg-1_03.png" alt="" />
+					            		<h2>10.00</h2>
+					            		<span>RMB</span>
+					            		<p>生活需要不断去感悟，并非简单的享乐</p>
+					            		<img src="img/zjg-2_03.png" alt="" />
+					            		<div class=zhonglei>
+					            			<span>微辣</span>
+					            			<span>中辣</span>
+					            			<span>麻辣</span>
+					            			<span class=active>清汤</span>
+					            		</div>
+					            	</div>
+					            	<div class="two">
+					            		<h4>数·量</h4>
+					            		<div>
+					            			<span class="active">+</span>
+						            		<span>00</span>
+						            		<span>-</span>
+					            		</div>
+					            	</div>
+					            </div>
+					            <div class="swiper-slide">
+					            	<div class=imgbox>
+					            		<img src="img/zjg-ms_1.png" alt="" />
+					            	</div>
+					            	<div class="one">
+					            		<p>CAKE NKEWANCHENGYU ARTSTATION</p>
+					            		<div class=stars>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            		</div>
+					            		<img src="img/zjg-1_03.png" alt="" />
+					            		<h2>10.00</h2>
+					            		<span>RMB</span>
+					            		<p>生活需要不断去感悟，并非简单的享乐</p>
+					            		<img src="img/zjg-2_03.png" alt="" />
+					            		<div class=zhonglei>
+					            			<span>微辣</span>
+					            			<span>中辣</span>
+					            			<span>麻辣</span>
+					            			<span class=active>清汤</span>
+					            		</div>
+					            	</div>
+					            	<div class="two">
+					            		<h4>数·量</h4>
+					            		<div>
+					            			<span class="active">+</span>
+						            		<span>00</span>
+						            		<span>-</span>
+					            		</div>
+					            	</div>
+					            </div>
+					            <div class="swiper-slide">
+					            	<div class=imgbox>
+					            		<img src="img/zjg-ms_1.png" alt="" />
+					            	</div>
+					            	<div class="one">
+					            		<p>CAKE NKEWANCHENGYU ARTSTATION</p>
+					            		<div class=stars>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            		</div>
+					            		<img src="img/zjg-1_03.png" alt="" />
+					            		<h2>10.00</h2>
+					            		<span>RMB</span>
+					            		<p>生活需要不断去感悟，并非简单的享乐</p>
+					            		<img src="img/zjg-2_03.png" alt="" />
+					            		<div class=zhonglei>
+					            			<span>微辣</span>
+					            			<span>中辣</span>
+					            			<span>麻辣</span>
+					            			<span class=active>清汤</span>
+					            		</div>
+					            	</div>
+					            	<div class="two">
+					            		<h4>数·量</h4>
+					            		<div>
+					            			<span class="active">+</span>
+						            		<span>00</span>
+						            		<span>-</span>
+					            		</div>
+					            	</div>
+					            </div>
+					            <div class="swiper-slide">
+					            	<div class=imgbox>
+					            		<img src="img/zjg-ms_1.png" alt="" />
+					            	</div>
+					            	<div class="one">
+					            		<p>CAKE NKEWANCHENGYU ARTSTATION</p>
+					            		<div class=stars>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            			<span class="iconfont icon-xing1"></span>
+					            		</div>
+					            		<img src="img/zjg-1_03.png" alt="" />
+					            		<h2>10.00</h2>
+					            		<span>RMB</span>
+					            		<p>生活需要不断去感悟，并非简单的享乐</p>
+					            		<img src="img/zjg-2_03.png" alt="" />
+					            		<div class=zhonglei>
+					            			<span>微辣</span>
+					            			<span>中辣</span>
+					            			<span>麻辣</span>
+					            			<span class=active>清汤</span>
+					            		</div>
+					            	</div>
+					            	<div class="two">
+					            		<h4>数·量</h4>
+					            		<div>
+					            			<span class="active">+</span>
+						            		<span>00</span>
+						            		<span>-</span>
+					            		</div>
+					            	</div>
+					            </div>
+					        </div>
+					        <div class="swiper-pagination"></div>
+					    </div>
+					</div>
+					<div class="pinglun">
+					     <div class="title">
+					     	<img src="img/zjg-pinglun.png" alt="" />
+					     	<div>
+					     		<p>SHIPINPINGLUN</p>
+					     		<p>商品评论</p>
+					     	</div>
+					     </div>
+					     <div class="juti">
+					     	<ul>
+					     		<li>
+					     			<div class=left>
+					     				<img src="img/zjg-touxiang_1.png" alt="" />
+					     			</div>
+					     			<div class="right">
+					     				<p>BEAUT.GR</p>
+					     				<p>大盘鸡很好吃，美味的食物</p>
+					     				<ul>
+					     					<li class="iconfont icon-xin"><span>2309</span></li>
+					     					<li class="iconfont icon-xiazai"><span>3489</span></li>
+					     					<li class="iconfont icon-shizhong2"><span>9:38 3.22</span></li>
+					     				</ul>
+					     			</div>
+					     		</li>
+					     		<li>
+					     			<div class=left>
+					     				<img src="img/zjg-touxiang_2.png" alt="" />
+					     			</div>
+					     			<div class="right">
+					     				<p>BEAUT.GR</p>
+					     				<p>大盘鸡很好吃，美味的食物</p>
+					     				<ul>
+					     					<li class="iconfont icon-xin"><span>2309</span></li>
+					     					<li class="iconfont icon-xiazai"><span>3489</span></li>
+					     					<li class="iconfont icon-shizhong2"><span>9:38 3.22</span></li>
+					     				</ul>
+					     			</div>
+					     		</li>
+					     		<li>
+					     			<div class=left>
+					     				<img src="img/zjg-touxiang_3.png" alt="" />
+					     			</div>
+					     			<div class="right">
+					     				<p>BEAUT.GR</p>
+					     				<p>大盘鸡很好吃，美味的食物</p>
+					     				<ul>
+					     					<li class="iconfont icon-xin"><span>2309</span></li>
+					     					<li class="iconfont icon-xiazai"><span>3489</span></li>
+					     					<li class="iconfont icon-shizhong2"><span>9:38 3.22</span></li>
+					     				</ul>
+					     			</div>
+					     		</li>
+					     	</ul>
+					     </div>
+					</div>
+					<div class="price">
+						<div>
+							<span>10.00</span>
+							<span>X</span>
+							<span>2</span>
+						</div>
+						<div>
+							<span></span>
+							<span>20.00</span>
+						</div>
+					</div>
 			</div>
 		</div>
+			<div class="buttom">
+				<button class="active">立即购买</button>
+				<button>加入订单</button>
+			</div>
 	</body>
 </html>
+<script>
+	var myScroll;
+	window.onload=function(){
+		var myScroll;
+			myScroll = new IScroll('#wrapper', {
+			scrollbars: true,
+			mouseWheel: true,
+			interactiveScrollbars: true,
+			shrinkScrollbars: 'scale',
+			fadeScrollbars: true
+		});
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+			capture: false,
+			passive: false
+		} : false);
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	    });
+	}
+	
+</script>
