@@ -1,0 +1,67 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	background: #050505;
+}
+.zwlargin{
+	width: 5.21rem;
+	height: 7.86rem;
+	text-align: center;
+	color: #fff;
+	background: url(../img/paybg.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 0.1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+h5{
+	font-size:0.4rem;
+	margin-top: 0.63rem;
+	padding: 0.1rem 0;
+}
+h6{
+	font-size: 0.28rem;
+	color: #F4BBBB;
+}
+.zwimg{
+	width: auto;
+	height: auto;
+	margin: 0.2rem auto;
+}
+img{
+	width: 1.96rem;
+}
+.zwtiao{
+	width: 2.12rem;
+	margin: 0.5rem auto 0;
+	border-top: 1px dotted yellow;
+}
+.zwsprice{
+	width: auto;
+	height: auto;
+	margin-top: 0.4rem;
+}
+span:first-child{
+	font-size: 0.32rem;
+}
+span:nth-child(2){
+	font-size: 0.5rem;
+}
+button{
+	width: 4.37rem;
+	height: 0.82rem;
+	border: 0;
+	border-radius: 0.1rem;
+	outline: none;
+	color: #fff;
+	font-size: 0.34rem;
+	position: absolute;
+	bottom: 0.65rem;
+	left: 0.42rem;
+	background: linear-gradient(to right,#E31919,#F21D19)
+}

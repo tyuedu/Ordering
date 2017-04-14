@@ -12,9 +12,13 @@
     	<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>	
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/swiper.css" />
    	 	<script src="js/common.js"></script>
+   	 	<script src="js/jquery.js"></script>
    	 	<script src="js/iscroll.js"></script>
    	 	<script src="js/demoUtils.js"></script>
+   	 	<script src="js/swiper.js"></script>
+   	 	<script src="js/countDown.js"></script>
 	</head>
 	<body onload="loaded()">
 		<div id="wrapper">
@@ -23,50 +27,314 @@
 					<div class="zwtopcen"></div>
 					<div class="zwtopname">
 						<a href="percen.html" class="zwtyu">
-							<span class="iconfont icon-fanhui1"></span>
+							<span class="iconfont icon-dingwei21"></span>
 							<h5>太原学院</h5>
-							<span class="zwtyue">TAIYUANXUE</span>
+							<span class="zwtyue">TAIYUANXUEYUAN</span>
 						</a>
 						<h4>GOURMET SHOP</h4>
 						<span>吃  货</span>
 						<div class="zwedit">
 							<a href="">
-								<span class="iconfont icon-bianji3"></span>
+								<span class="iconfont icon-iconshousuo1"></span>
 							</a>
 						</div>
 					</div>
 				</div>
 				<!--Banner-->
+				
 				<div class="zwbanner">
-					<ul class="zwimgs">
-						<li>
-							<a href="">
-								<img src="" alt="" />
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img src="" alt="" />
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img src="" alt="" />
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img src="" alt="" />
-							</a>
-						</li>
-					</ul>
-					<ul class="zwcircle">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+					<div class="swiper-container gallery-top">
+        				<div class="swiper-wrapper">
+        					<div class="swiper-slide" style=""><a href=""><img src="img/zwbanner.png" alt="" /></a></div>
+        					<div class="swiper-slide" style=""><a href=""><img src="img/zwbanner.png" alt="" /></a></div>
+        					<div class="swiper-slide" style=""><a href=""><img src="img/zwbanner.png" alt="" /></a></div>
+        					<div class="swiper-slide" style=""><a href=""><img src="img/zwbanner.png" alt="" /></a></div>
+        				</div>
+        				<div class="swiper-pagination"></div>
+        			</div>
+					 <div class="swiper-container gallery-thumbs">
+        				<div class="swiper-wrapper">
+							<div class="swiper-slide" style="">
+								<div class="zwbannercon1">		
+									<div class="zwbantou"></div>
+									<h5>JAM.WANG</h5>
+									<span>生活是如此的简单需要被美食所满足...</span>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<div class="zwcontentbot">
+										<img src="img/zjg-dizhi.png" alt="" />
+										<span>TAIYUAN</span>
+										<span class="iconfont icon-shizhong1"></span>
+										<span>4.14 2017</span>
+									</div>
+									<span class="iconfont icon-fanhui1"></span>
+								</div>
+								<div class="zwbannercon2"></div>
+								<div class="zwbannercon3"></div>
+							</div>
+							<div class="swiper-slide" style="">
+								<div class="zwbannercon1">		
+									<div class="zwbantou"></div>
+									<h5>JAM.WANG</h5>
+									<span>生活是如此的简单需要被美食所满足...</span>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<div class="zwcontentbot">
+										<img src="img/zjg-dizhi.png" alt="" />
+										<span>TAIYUAN</span>
+										<span class="iconfont icon-shizhong1"></span>
+										<span>4.14 2017</span>
+									</div>
+									<span class="iconfont icon-fanhui1"></span>
+								</div>
+								<div class="zwbannercon2"></div>
+								<div class="zwbannercon3"></div>
+							</div>
+							<div class="swiper-slide" style="">
+								<div class="zwbannercon1">		
+									<div class="zwbantou"></div>
+									<h5>JAM.WANG</h5>
+									<span>生活是如此的简单需要被美食所满足...</span>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<div class="zwcontentbot">
+										<img src="img/zjg-dizhi.png" alt="" />
+										<span>TAIYUAN</span>
+										<span class="iconfont icon-shizhong1"></span>
+										<span>4.14 2017</span>
+									</div>
+									<span class="iconfont icon-fanhui1"></span>
+								</div>
+								<div class="zwbannercon2"></div>
+								<div class="zwbannercon3"></div>
+							</div>
+							<div class="swiper-slide" style="">
+								<div class="zwbannercon1">		
+									<div class="zwbantou"></div>
+									<h5>JAM.WANG</h5>
+									<span>生活是如此的简单需要被美食所满足...</span>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<div class="zwcontentbot">
+										<img src="img/zjg-dizhi.png" alt="" />
+										<span>TAIYUAN</span>
+										<span class="iconfont icon-shizhong1"></span>
+										<span>4.14 2017</span>
+									</div>
+									<span class="iconfont icon-fanhui1"></span>
+								</div>
+								<div class="zwbannercon2"></div>
+								<div class="zwbannercon3"></div>
+							</div>
+						</div>
+					</div>							
+				</div>
+				
+				
+				
+				<div class="zwmenu">
+					<ul>
+						<a href="">
+							<li>
+								<img src="img/zjg-list_06.png" alt="" />
+								<h6>蛋糕</h6>
+								<span>CAKE</span>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="img/zjg-list_08.png" alt="" />
+								<h6>超市</h6>
+								<span>SUPER</span>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="img/zjg-list_10.png" alt="" />
+								<h6>早餐</h6>
+								<span>DINNER</span>
+							</li>
+						</a>
+						<a href="">
+							<li>
+								<img src="img/zjg-list_12.png" alt="" />
+								<h6>夜宵</h6>
+								<span>DIGHT</span>
+							</li>
+						</a>
 					</ul>
 				</div>
+				<!--附近商家-->
+				<div class="zwlargin">
+					<div class="zwnearby">
+						<div class="zwneartop">
+							<img src="img/zjg-fujin.png" alt="" class="zwfujin"/>
+							<a href="">
+								<img src="img/zjg-more_3.png" alt="" class="zwmore"/>
+							</a>
+						</div>
+						<div class="zwnearcontent ct1">
+							<a href="">
+								<img src="img/zjg-ms_2.png" alt="" class="zwcontentimg"/>
+								<div class="zwcontentname">
+									<h5>SEADOOD DELICIOUS</h5>
+									<h6>瑞士大盘鸡</h6>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<span class="zwprice">156.00RMB</span>
+									<span class="zwjuli">2.0km</span>
+								</div>
+								<div class="zwtiao">
+									<div class="zwtiaogray"></div>
+								</div>
+								<div class="zwcontentbot">
+									<img src="img/zjg-dizhi.png" alt="" />
+									<span>TAIYUAN</span>
+									<span class="iconfont icon-shizhong1"></span>
+									<span>12:35</span>
+								</div>
+							</a>
+						</div>					
+						<div class="zwnearcontent ct2">
+							<a href="">
+								<img src="img/zjg-ms_3.png" alt="" class="zwcontentimg"/>
+								<div class="zwcontentname">
+									<h5>SEADOOD DELICIOUS</h5>
+									<h6>瑞士大盘鸡</h6>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<span class="zwprice">156.00RMB</span>
+									<span class="zwjuli">2.0km</span>
+								</div>
+								<div class="zwtiao">
+									<div class="zwtiaogray"></div>
+								</div>
+								<div class="zwcontentbot">
+									<img src="img/zjg-dizhi.png" alt="" />
+									<span>TAIYUAN</span>
+									<span class="iconfont icon-shizhong1"></span>
+									<span>12:35</span>
+								</div>
+							</a>
+						</div>
+						<div class="zwnearcontent ct3">
+							<a href="">
+								<img src="img/zjg-ms_4.png" alt="" class="zwcontentimg"/>
+								<div class="zwcontentname">
+									<h5>SEADOOD DELICIOUS</h5>
+									<h6>瑞士大盘鸡</h6>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<span class="zwprice">156.00RMB</span>
+									<span class="zwjuli">2.0km</span>
+								</div>
+								<div class="zwtiao">
+									<div class="zwtiaogray"></div>
+								</div>
+								<div class="zwcontentbot">
+									<img src="img/zjg-dizhi.png" alt="" />
+									<span>TAIYUAN</span>
+									<span class="iconfont icon-shizhong1"></span>
+									<span>12:35</span>
+								</div>
+							</a>
+						</div>
+						<div class="zwnearcontent ct4">
+							<a href="">
+								<img src="img/zjg-ms_1.png" alt="" class="zwcontentimg"/>
+								<div class="zwcontentname">
+									<h5>SEADOOD DELICIOUS</h5>
+									<h6>瑞士大盘鸡</h6>
+									<div class="zwxing">
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+										<span class="iconfont icon-xing"></span>
+									</div>
+									<span class="zwprice">156.00RMB</span>
+									<span class="zwjuli">2.0km</span>
+								</div>
+								<div class="zwtiao">
+									<div class="zwtiaogray"></div>
+								</div>
+								<div class="zwcontentbot">
+									<img src="img/zjg-dizhi.png" alt="" />
+									<span>TAIYUAN</span>
+									<span class="iconfont icon-shizhong1"></span>
+									<span>12:35</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--优惠活动-->
+				<div class="zwyouhui">
+					<img src="img/zjg-youhui.png" alt="" class="zwyhimg"/>
+					<a href="">
+						<img src="img/zjg-more_2.png" alt="" class="zwyhmore"/>
+					</a>
+				</div>
+				<div class="yhlargin">
+					<a href="">
+						<div class="yhcontent">
+							<div class="yhmeng">
+								<img src="img/time.png" alt="" />
+								<span class="count"><i class="hour">1:</i><i class="min">32:</i><i class="sec">01</i></span>
+								<div class="yhtitle">
+									<h6>EXOTIC FLAVOR</h6>
+									<span>美食需要分享吃货无法抵御</span>
+								</div>							
+							</div>
+						</div>
+					</a>
+					<div class="yhcontenttitle">
+						<a href="">
+							<h5>EAT THE HOLIDAYS</h5>
+							<span>千种美食不鉴不散——吃货节</span>
+							<div class="zwxing">
+								<span class="iconfont icon-xing"></span>
+								<span class="iconfont icon-xing"></span>
+								<span class="iconfont icon-xing"></span>
+								<span class="iconfont icon-xing"></span>
+							</div>
+						</a>
+						<div class="zwcontentbot">
+							<img src="img/zjg-dizhi.png" alt="" />
+							<span>TAIYUAN</span>
+							<span class="iconfont icon-shizhong1"></span>
+							<span>4.14</span>
+						</div>
+						<div class="yhtiao"></div>
+					</div>
+				</div>				
 			</div>
 		</div>
 		<div class="bottom">
@@ -82,7 +350,7 @@
 					</a>	
 				</li>
 				<li>
-					<a href="">
+					<a href="percen.html">
 						<span class="iconfont icon-geren"></span>
 					</a>
 				</li>
@@ -105,4 +373,33 @@
 		capture: false,
 		passive: false
 	} : false);
+	
+//	轮播	
+	var galleryTop = new Swiper('.gallery-top', {
+ 		pagination: '.swiper-pagination',
+        spaceBetween: 10,
+//      autoplay:5000
+    });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+        spaceBetween: 10,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        touchRatio: 0.2,
+        slideToClickedSlide: true
+    });
+    galleryTop.params.control = galleryThumbs;
+    galleryThumbs.params.control = galleryTop;
+        
+//  倒计时
+    $(function(){
+		$(".count").countDown({
+			startTimeStr:'2017/04/14 17:12:00',//开始时间
+        	endTimeStr:'2017/04/22 16:59:59',//结束时间
+//      	daySelector:".day_num",
+            hourSelector:".hour",
+            minSelector:".min",
+            secSelector:".sec"
+		});
+	})
+
 </script>
