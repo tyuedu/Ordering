@@ -1,0 +1,266 @@
+body{
+	background: #EEEEEE;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	/*background: #ccc;*/
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+.zwtop{
+	width: 100%;
+	height: 1.46rem;
+	background: #E71C25;
+	color: #fff;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	margin-top: 0.4rem;
+	text-align: center;
+	overflow: hidden;
+}
+.zwtop .zwtopname{
+	width: auto;
+	height: auto;
+	margin-top: 0.39rem;
+	overflow: hidden;
+	position: relative;
+}
+.zwtop .icon-fanhui1{
+	color: #fff;
+	font-size: 0.4rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+.zwtopname h4{
+	font-size: 0.3rem;
+}
+.zwtopname span{
+	font-size: 0.22rem;
+	color: #cacaca;
+}
+.zwtopname .zwedit{
+	width: 0.8rem;
+	height: 0.4rem;
+	line-height: 0.37rem;
+	text-align: center;
+	border-radius: 10px;
+	background: #fff;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.14rem;
+}
+.zwtopname .zwedit a span{
+	color: #898383;	
+}
+/*内容*/
+.container{
+	width:100%;
+	height:auto;
+	background: #fff;
+}
+.container >div{
+	width:100%;
+	height:auto;
+}
+.container >div > p{
+	width:100%;
+	height:0.52rem;
+	color:red;
+	font-size:0.14rem;
+	line-height:0.52rem;
+	background:#EEEEEE;
+	padding:0 0.32rem;
+	box-sizing: border-box;
+}
+.container >div >ul{
+	width:100%;
+	height:auto;
+	padding:0 0.32rem;
+	box-sizing: border-box;
+}
+.container >div >ul li{
+	width:100%;
+	height:1.9rem;
+	border-bottom:0.01rem solid #CBC8C8;
+}
+.container >div >ul li .imgbox{
+	height:1.4rem;
+	width:1.92rem;
+	float:left;
+	overflow: hidden;
+	margin-top:0.24rem;
+}
+.img1{
+	background: url(../img/zjg1.png);
+	background-size: cover;
+	background-position: center;
+}
+.img2{
+	background: url(../img/zjg2.png);
+	background-size: cover;
+	background-position: center;
+}
+.container >div >ul li .introduce{
+	float:left;
+	height:1.4rem;
+	width:auto;
+	margin:0.3rem  0 0 0.42rem;
+}
+.container >div >ul li .introduce .title{
+	font-size:0.28rem;
+}
+.container >div >ul li .introduce section{
+	width:auto;
+	overflow: hidden;
+	margin-top:0.28rem;
+	height:auto;
+}
+.container >div >ul li .introduce section >div{
+	float:left;
+	width:auto;
+	height:auto;
+}
+.container >div >ul li .introduce section >div >div{
+	float:left;
+	width:0.1rem;
+	height:0.1rem;
+	background:#17CB6A;
+	margin-top:0.1rem;
+}
+.container >div >ul li .introduce section >div >span{
+	float:left;
+	margin-left:0.1rem;
+	font-size:0.2rem;
+	color: #BEBDBD;
+}
+.container >div >ul li .introduce section .kouwei{
+	margin-left:0.52rem;
+}
+.container >div >ul li .introduce .price{
+	font-size:0.2rem;
+	margin-top:0.1rem;
+}
+.container >div .totle{
+	padding:0 0.32rem;
+	box-sizing: border-box;
+	width:100%;
+	height:2.5rem;
+	overflow: hidden;
+}
+.container >div .totle div:nth-of-type(1){
+	float:left;
+	width:auto;
+	height:auto;
+	overflow: hidden;
+	margin-top:0.2rem;
+}
+.container >div .totle div:nth-of-type(1) span:nth-of-type(1){
+	font-size:0.28rem;
+	color:#828080;
+	display:block;
+	float:left;
+}
+.container >div .totle div:nth-of-type(1) b{
+	font-size:0.2rem;
+	color:#3A3A3A;
+	margin-left:0.18rem;
+	display:block;
+	height: 19px;
+	line-height: 21px;
+	float:left;
+}
+.container >div .totle div:nth-of-type(1) span{
+	height: 19px;
+	line-height: 21px;
+	float:left;
+}
+.totle .zwaccept{
+	float:right;
+	width:1.4rem;
+	height:0.42rem;
+	border-radius:0.1rem;
+	background:#F0541D;
+	margin-top:0.2rem;
+	font-size:0.12rem;
+	text-align: center;
+	line-height: 0.42rem;
+}
+.totle .zwaccept a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.zwphone{
+	width: 100%;
+	height: 0.64rem;
+	float: left;
+	padding: 0.2rem 0.2rem 0.1rem;
+	overflow: hidden;
+	position: relative;
+}
+h5{
+	font-size: 0.25rem;
+	letter-spacing: 0.1rem;
+	color: #888888;
+}
+span{
+	color: #9F9F9F;
+}
+.zwphone p{
+	font-size: 0.28rem;
+	color: #888888;
+	position: absolute;
+	left: 3rem;
+	top: 0.35rem;
+}
+.zwaddress{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0.1rem 0.2rem;
+	position: relative;
+}
+.zwaddress p{
+	font-size: 0.28rem;
+	color: #888888;
+	position: absolute;
+	left: 3rem;
+	top: 0.2rem;
+}
+.zwmore{
+	width: 100%;
+	height: 2rem;
+	background: #EEEEEE;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.38rem;
+	color: #888888;
+}
+
